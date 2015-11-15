@@ -1,0 +1,19 @@
+﻿<section>
+    <div class="container">
+        <div class=" page-header"><h3 data-bind="text: displayName"></h3></div>
+        <select id="myDestination" class="form-control">
+            <option>London</option>
+            <option>Lisbon</option>
+            <option>New York</option>
+            <option>Paris</option>
+        </select>
+        <hr />
+        <div class="row" data-bind="foreach: images">
+            <div class="col-sm-6 col-md-4 flickrImage">
+                <a href="#" data-bind="attr: { src: media.m, title: 'Title: ' + title + '\n' + $parent.splitTags(tags) }, click:$parent.select" class="small">
+                    <img class="thumbnail text-center" data-bind="attr: { src: media.m }" />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

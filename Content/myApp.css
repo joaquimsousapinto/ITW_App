@@ -1,0 +1,21 @@
+﻿@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Light-webfont.eot');
+    src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Light-webfont.woff') format('woff'), url('../fonts/Roboto-Light-webfont.ttf') format('truetype'), url('../fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@media
+    only screen and (-webkit-min-device-pixel-ratio: 1.25),
+    only screen and ( min-device-pixel-ratio: 1.25),
+    only screen and ( min-resolution: 200dpi),
+    only screen and ( min-resolution: 1.25dppx)
+{ -webkit-font-smoothing: subpixel-antialiased; }
+body { font-family: roboto; font-weight: 300; /*font-size:1.5em;*/ }
+
+.page-host {
+    margin-top:60px;
+}
+.pictureDetail { min-width:500px; width:500px; min-height:50%; height:50%; display:block; }
+.flickrImage { text-align:left; height:320px; }
+.flickrImage img { margin:auto;}
